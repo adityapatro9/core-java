@@ -1,19 +1,19 @@
-package oops.Inheritance;
+package oops;
 
-class Animal{
-	
+class Animal {
+
 	void eat() {
 		System.out.println("The Animal is Eating");
 	}
 }
 
-class Aquatic extends Animal{
+class Aquatic extends Animal {
 	void swim() {
 		System.out.println("I am Swimming");
 	}
 }
 
-class Fish extends Aquatic{
+class Fish extends Aquatic {
 	void name() {
 		System.out.println("I am A Fish");
 	}
@@ -22,8 +22,8 @@ class Fish extends Aquatic{
 public class Multilevel {
 
 	public static void main(String[] args) {
-		Fish f=new Fish();
-		
+		Fish f = new Fish();
+
 		f.swim();
 		f.eat();
 		f.name();

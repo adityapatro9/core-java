@@ -1,4 +1,4 @@
-package oops.abstraction;
+package oops;
 
 abstract class Engine{
 	String name="XDragon";
@@ -6,6 +6,9 @@ abstract class Engine{
 	abstract void start();
 	abstract void stop();
 	abstract void operate();
+	void power() {
+		System.out.println("100cc power");
+	}
 }
 
 
