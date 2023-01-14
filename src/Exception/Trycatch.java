@@ -6,7 +6,7 @@ public class Trycatch {
 		
 		String s=null;
 		char c=s.charAt(2);
-		
+		System.out.println(c);
 	}
 
 	public static void main(String[] args) throws ArithmeticException {
